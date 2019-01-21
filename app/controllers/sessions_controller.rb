@@ -18,5 +18,6 @@ class SessionsController < ApplicationController
     end 
     redirect_to :login 
   end 
+
   
 end 
