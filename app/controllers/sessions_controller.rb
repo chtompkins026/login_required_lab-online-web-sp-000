@@ -16,7 +16,7 @@ class SessionsController < ApplicationController
     if current.present? 
       session.delete :name 
     end 
-    redirect_to :login 
+    redirect_to :login
   end 
 
   
