@@ -12,7 +12,11 @@ class SessionsController < ApplicationController
   end 
   
   def destroy
-    if 
+    current = session[:name]
+    if current.present? 
+      session.delete :name 
+    end 
+    redirect_to :login 
   end 
   
 end 
