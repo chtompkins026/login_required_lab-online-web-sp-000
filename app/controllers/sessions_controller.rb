@@ -1,1 +1,1 @@
-class SecretsController < ActionController::Base
+class SecretsController < ApplicationController
